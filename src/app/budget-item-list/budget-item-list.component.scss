@@ -15,12 +15,16 @@
             flex-direction: column;
             flex-basis: 0;
             flex-grow: 1;
-
             h1{
                 font-family: 'Lato';
                 font-weight: 900;
                 font-size: 24px;
                 text-transform: uppercase;
+            }
+            .budget-items{
+                display: flex;
+                flex-direction: column;
+                margin-top: 20px;
             }
         }
         .income-column{
